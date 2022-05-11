@@ -60,7 +60,7 @@ public class Fen extends JFrame {
     }
 
     private void setUpEspeceColonne(TableColumn column) {
-        String[] especes = {"Mammifère","Poisson","Oiseau"};
+        String[] especes = {"Mammifère","Poisson","Oiseau","Insecte","Araignee","Autre"};
         JComboBox laBobox = new JComboBox(especes);
         column.setCellEditor(new DefaultCellEditor(laBobox));
     }
